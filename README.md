@@ -9,7 +9,7 @@ používa "Gapminder" dáta zabudované v Plotly
 
 Plotly nie je súčasťou Anacondy, treba ho doinštalovať.
 
-Postup inštalácie Plotly:
+**Postup inštalácie Plotly:**
 
 Vypnúť JupyterLab
 
