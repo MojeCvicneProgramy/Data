@@ -1,8 +1,9 @@
 # Data
 dátová analýza v Pythone, 
-ukážka SQL filtrovania, použitie CTE, dočasná tabuľka a view
+ukážka SQL filtrovania, použitie CTE, dočasná tabuľka a view, úprava, čistenie dát v SQL
 
 
+---
 # VizualizeData.ipynb
 
 obsahuje základné možnosti zobrazenia a filtrovania dát
@@ -25,6 +26,7 @@ jupyter labextension install jupyterlab-plotly
 Zapnúť JupyterLab znovu
 
 
+---
 # AnalyseData.ipynb
 
 obsahuje základné možnosti štatistickej analýzy aj zobrazenia
@@ -32,6 +34,7 @@ obsahuje základné možnosti štatistickej analýzy aj zobrazenia
 používa "Gapminder" dáta zabudované v Plotly, a tabuľky account.asc a property_prices.csv
 
 
+---
 # Covid.sql
 
 zdroj dát: https://ourworldindata.org/covid-deaths (treba rozdeliť na dve tabuľky: Úmrtnosť a Zaočkovanosť, potom budeme spájať ak treba)
@@ -298,6 +301,10 @@ SELECT *
 FROM ViewTabulka
 
 
+---
+# DataCleaningHousingData.sql
+
+používa dáta z HousingData.xlsx
 
 
 
